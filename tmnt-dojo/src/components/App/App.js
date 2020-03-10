@@ -1,10 +1,11 @@
 import React from 'react';
+import Home from '../Home/Home.js';
 
 
 function App() {
   return (
    <div>
-     DANE'S TMNT DOJO APP
+     <Home />
    </div>
   )
 }
