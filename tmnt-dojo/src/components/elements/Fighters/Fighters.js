@@ -23,9 +23,9 @@ class Fighters extends Component {
             <div className="tmnt-grid">
                 
                 <div className="tmnt-grid-content">
-                    {/* {this.renderElements()} */}
+                    {this.renderElements()}
                 </div>
-                <button onClick={this.renderElements()}>Render Turtles!</button>
+                {/* <button onClick={ this.renderElements() }>Render Turtles!</button> */}
             </div>
         )
     }
