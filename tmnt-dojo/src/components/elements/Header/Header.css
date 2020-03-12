@@ -17,8 +17,11 @@
 }
 
   .tmnt-logo {
-    width: 300px;
+    /* width: 300px;
     margin-top: 20px;
-    float: left;
+    float: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 

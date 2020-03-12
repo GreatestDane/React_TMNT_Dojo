@@ -1,3 +1,8 @@
+/* body {
+  background:url("/images/titanium.jpg");
+  background-repeat:no-repeat
+} */
+
 .tmnt-grid  {
     font-family: 'Abel', sans-serif;
     font-size:42px;
@@ -17,7 +22,28 @@
     margin-top: 25px;
     margin-left: 20px;
   }
+
+  .names {
+    margin-left: 25px;
+    color: rgb(82, 247, 82);
+  }
   
   .tmnt-grid-element {
     animation: animateGrid 0.5s;
+  }
+
+  #raph {
+    margin-left: 70px;
+  }
+
+  #mikey {
+    margin-right: 0px;
+  }
+
+  #leo {
+    margin-left: 70px;
+  }
+
+  #don {
+    margin-left: 60px;
   }
