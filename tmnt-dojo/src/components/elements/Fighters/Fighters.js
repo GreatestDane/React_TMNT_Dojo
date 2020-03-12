@@ -3,7 +3,7 @@ import './Fighters.css';
 
 class Fighters extends Component {
     state = {
-        turtles: ['./images/Don.jpg', './images/Leo.jpg', './images/Mikey.jpg', './images/Raph.jpg']
+        turtles: [<img src='./images/Don.jpg' className='images' alt="Donatello" />, <img src='./images/Leo.jpg' className='images' alt="Leonardo" />, <img src='./images/Mikey.jpg' className='images' alt="Michaelangelo" />, <img src='./images/Raph.jpg' className='images' alt="Raphael" />]
     }
 
 
