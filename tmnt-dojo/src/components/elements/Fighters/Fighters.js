@@ -8,7 +8,7 @@ class Fighters extends Component {
 
 
     renderElements = () => {
-        const gridElements = this.fighters.map((element, i) => {
+        const gridElements = this.state.turtles.map((element, i) => {
             return (
                 <div key={i} className="tmnt-grid-element">
                     {element}
@@ -21,11 +21,11 @@ class Fighters extends Component {
     render() {
         return (
             <div className="tmnt-grid">
-                <h1>MY NAME JEFF</h1>
+                
                 <div className="tmnt-grid-content">
-                    {this.renderElements()}
+                    {/* {this.renderElements()} */}
                 </div>
-                <button>Render Turtles!</button>
+                <button onClick={this.renderElements()}>Render Turtles!</button>
             </div>
         )
     }
