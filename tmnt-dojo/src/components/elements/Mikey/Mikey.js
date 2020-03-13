@@ -3,7 +3,7 @@ import './Mikey.css';
 
 class Mikey extends Component {
     state = {
-        weapon: 'nunchucks',
+        weapon: 'Nunchucks',
         attack: 26,
         HP: 100,
         defense: 30,
@@ -18,7 +18,6 @@ class Mikey extends Component {
                     <h1>Michaelangelo</h1>
                     <h2>Favorite Weapon: {this.state.weapon}</h2>
                     <h2>Bio: {this.state.bio}</h2>
-                    <button className="btn btn-success">Select Fighter</button>
                 </div>
             </div>
         )

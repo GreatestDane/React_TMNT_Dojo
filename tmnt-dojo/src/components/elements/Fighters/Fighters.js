@@ -9,7 +9,7 @@ class Fighters extends Component {
             <div className="names" id="don">Donatello</div>,
             <div className="names" id="leo">Leonardo</div>,
             <Link to='/mikey'> <div className="names" id="mikey">Michaelangelo</div> </Link>,
-            <div className="names" id="raph">Raphael</div>
+            <Link to='/raph'> <div className="names" id="raph">Raphael</div> </Link>
         ]
     }
 
