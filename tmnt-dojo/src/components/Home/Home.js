@@ -1,5 +1,4 @@
 import React,  { Component } from 'react';
-import Header from "../elements/Header/Header.js";
 import Fighters from '../elements/Fighters/Fighters.js';
 import './Home.css';
 
@@ -12,7 +11,6 @@ class Home extends Component {
     render() {
         return (
             <div className="tmnt-home">
-                <Header />
                 <Fighters />
             </div>
         )
