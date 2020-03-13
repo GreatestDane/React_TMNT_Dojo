@@ -6,7 +6,7 @@ class Fighters extends Component {
     state = {
         turtles: [<img src='./images/Don.jpg' className='images' alt="Donatello" />, <img src='./images/Leo.jpg' className='images' alt="Leonardo" />, <img src='./images/Mikey.jpg' className='images' alt="Michaelangelo" />, <img src='./images/Raph.jpg' className='images' alt="Raphael" />],
         names: [
-            <div className="names" id="don">Donatello</div>,
+            <Link to='/don'> <div className="names" id="don">Donatello</div>, </Link>
             <div className="names" id="leo">Leonardo</div>,
             <Link to='/mikey'> <div className="names" id="mikey">Michaelangelo</div> </Link>,
             <Link to='/raph'> <div className="names" id="raph">Raphael</div> </Link>
