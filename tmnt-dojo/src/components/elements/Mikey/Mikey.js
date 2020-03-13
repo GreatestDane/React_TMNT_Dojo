@@ -12,8 +12,14 @@ class Mikey extends Component {
 
     render() {
         return (
-            <div>
-                Mikey
+            <div id='mikey-page'>
+                <img src='./images/Mikey.jpg' alt='Michaelangelo' id='mikey-image'></img>
+                <div id="mikey-text">
+                    <h1>Michaelangelo</h1>
+                    <h2>Favorite Weapon: {this.state.weapon}</h2>
+                    <h2>Bio: {this.state.bio}</h2>
+                    <button className="btn btn-success">Select Fighter</button>
+                </div>
             </div>
         )
     }
