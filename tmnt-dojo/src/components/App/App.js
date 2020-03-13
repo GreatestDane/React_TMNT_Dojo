@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Header from "../elements/Header/Header.js";
-import Home from '../Home/Home.js';
+import Header from "../elements/Header/Header";
+import Home from '../Home/Home';
+import Mikey from '../elements/Mikey/Mikey';
 
 
 function App() {
