@@ -5,6 +5,7 @@ import Home from '../Home/Home';
 import Mikey from '../elements/Mikey/Mikey';
 import Raph from '../elements/Raph/Raph';
 import Don from '../elements/Don/Don';
+import Leo from '../elements/Leo/Leo';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path="/mikey" component={Mikey} exact />
             <Route path="/raph" component={Raph} exact />
             <Route path="/don" component={Don} exact />
+            <Route path="/leo" component={Leo} exact />
           </Switch>
         </React.Fragment>
       </BrowserRouter>

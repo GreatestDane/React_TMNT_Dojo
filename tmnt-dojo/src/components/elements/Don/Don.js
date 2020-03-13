@@ -12,9 +12,9 @@ class Don extends Component {
 
     render() {
         return (
-            <div id='Don-page'>
-                <img src='./images/Don.jpg' alt='Donatello' id='Don-image'></img>
-                <div id="Don-text">
+            <div id='don-page'>
+                <img src='./images/Don.jpg' alt='Donatello' id='don-image'></img>
+                <div id="don-text">
                     <h1>Donatello</h1>
                     <h2>Favorite Weapon: {this.state.weapon}</h2>
                     <h2>Bio: {this.state.bio}</h2>

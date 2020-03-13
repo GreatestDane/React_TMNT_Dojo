@@ -1,11 +1,11 @@
-#don-page {
+#leo-page {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
     position: relative;
 }
 
-#don-image {
+#leo-image {
     height: 400px;
     width: 350px;
     border: 10px solid black;
@@ -14,7 +14,7 @@
     float: left;
 }
 
-#don-text {
+#leo-text {
     color: rgb(82, 247, 82);
     float: right;
     margin-top: 110px;
